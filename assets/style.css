@@ -37,6 +37,7 @@ input {
     font-size: 25px;
     direction: rtl;
     border-radius: 5px;
+    margin-left: 10px;
 }
 
 button {
