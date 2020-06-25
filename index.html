@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    
+
+        <div id='conteudo'>
+            <form>
+                <div id="decimal" class="operadores">
+                    <label for="decimal">Decimal</label>
+                    <input type="text" name="decimal" id="decimalForm">
+                    <button onclick="copyDecimal(); return false">Copy text</button>
+                </div>
+
+                <div id="hexadecimal" class="operadores">
+                    <label for="hexadecimal">Hexadecimal</label>
+                    <input type="text" name="hexadecimal" id="hexadecimalForm">
+                    <button onclick="copyHexa(); return false">Copy text</button>
+                </div>
+
+                <div id="binario" class="operadores">
+                    <label for="binario">Binary</label>
+                    <input type="text" name="bin" id="binForm">
+                    <button onclick="copyBin(); return false">Copy text</button>
+                </div>
+
+                <div id="octal" class="operadores">
+                    <label for="octal">Octal</label>
+                    <input type="text" name="octal" id="octalForm">
+                    <button onclick="copyOcta(); return false">Copy text</button>
+                </div>
+
+                <input type="reset" value="Reset" id='reset'>
+            </form>
+        </div>
+
+    
+
+</body>
+<script src="./assets/script.js"></script>
+
+</html>
