@@ -14,7 +14,7 @@
             <form>
                 <div id="decimal" class="operadores">
                     <label for="decimal">Decimal</label>
-                    <input type="text" name="decimal" id="decimalForm">
+                    <input type="number" step="" name="decimal" id="decimalForm">
                     <button onclick="copyDecimal(); return false">Copy</button>
                 </div>
 
@@ -26,13 +26,13 @@
 
                 <div id="binario" class="operadores">
                     <label for="binario">Binary</label>
-                    <input type="text" name="bin" id="binForm">
+                    <input inputmode="numeric" pattern="[0-1]*" type="text" name="bin" id="binForm">
                     <button onclick="copyBin(); return false">Copy</button>
                 </div>
 
                 <div id="octal" class="operadores">
                     <label for="octal">Octal</label>
-                    <input type="text" name="octal" id="octalForm">
+                    <input type="number" step="any" name="octal" id="octalForm">
                     <button onclick="copyOcta(); return false">Copy</button>
                 </div>
 
